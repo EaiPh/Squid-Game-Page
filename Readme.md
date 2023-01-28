@@ -1,4 +1,5 @@
-() responsividade
-() acessibilidade 
-() tags semânticas 
-() passar medidas para rem 
+# techs
+
+● Html
+● Css
+● Git

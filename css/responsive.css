@@ -1,0 +1,67 @@
+@media screen and (max-width: 700px) {
+   body {
+      width: 700px;
+   }
+ 
+   main {
+      width: 100%;
+      height: 1100px;
+   }
+   
+   nav {
+      width: 100%;
+   }
+   
+   .container > div {
+      width: 100%;
+      display: grid;
+      grid-template: "sqg"
+                     "stt" 190px
+                     "continueWtch";
+      justify-content: center;
+      align-items: center;
+      
+   }
+   
+   .squidGameLogo {
+      grid-area: sqg;
+   }
+   
+   #symbols, #text-serie, #trend {
+      position: relative;
+      grid-area: stt;
+   }
+   
+   #symbols {
+      left: 15px;
+   }
+   
+   #text-serie {
+      left: 70px;
+      top: 5px;
+   }
+   
+   #trend {
+      top: 50px;
+      right: 110px;
+   }
+   
+   .squidGameAvatar {
+      position: absolute;
+      bottom: 5px;
+      left: 200px;
+   }
+   
+   #avatar2 {
+      left: 215px;
+   }
+   
+}
+
+@media screen and ( max-width: 1280px ) {
+   /* atualizações em breve */
+}
+
+@media screen and ( max-width: 1920px ) {
+   /* atualizações em breve */
+}

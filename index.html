@@ -9,7 +9,8 @@
    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
    
    <link rel="stylesheet" href="./css/style.css">
-   <link rel="stylesheet" href="./css/style.scss">
+   <link rel="stylesheet" href="./css/responsive.css">
+  
    
    <script src="script.js" defer></script>
    
@@ -22,47 +23,66 @@
    </header>
    <main>
    	<div class="container">
-   		
+   	
    		<nav>
    			<div>
-   				<img src="./assets/images/Previous.png" alt="previous image" />
+   	   		<img id="prev-img" src="./assets /images/Previous.png" alt="previous image" />
    			</div>
    			<ul>
-   				<li>Home</li>
-   				<li>About</li>
-   				<li>Cast</li>
-   				<li>Trailer</li>
+   				<li><a href="https://www.netflix.com/br/" target="_blank">Home</a></li>
+   				<li><a href="#">About</a></li>
+   				<li><a href="https://www.netflix.com/tudum/squid-game/cast" target="_blank">Cast</a></li>
+   				<li><a href="https://youtu.be/oqxAJKy0ii4" target="_blank">Trailer</a></li>
    			</ul>
    			<div>
-   				<img src="./assets/ images/NetflixLogo.png" alt="netflix logo" />
+   				<img src="./assets /images/NetflixLogo.png" alt="netflix logo" />
    			</div>
    		</nav>
    		
    		<div>
+   		   
    			<div class="squidGameLogo">
-   				<img src="./assets/images/SquidGameLogo.png" alt="squid Game Logo">
+   				<img src="./assets /images/SquidGameLogo.png" alt="squid Game Logo">
    			</div>
-   			<div id="symbols">
-   		   	<img src="./assets/images/Symbol1" alt="" />
-      			<img src="./assets/images/Symbol2" alt="" />
-      			<img src="./assets/images/Symbol3" alt="" />
+   			   
+   	 	   <div id="symbols">
+   	 	  	   <img src="./assets /images/Symbol2.png" id="symbol2" alt="" />
+   	 	      <img src="assets /images/Symbol3.png" id="symbol3" alt="" />
+   		      <img src="./assets /images/Symbol1.png" id="symbol1" alt="" />
    		   </div>
-   		   <div id="text-serie">
-         		<p></p>
-         	</div>
-   	      <div id="trend">
-   				
-   		   </div>
-   	   </div>
-         <div>
-            	
+   		      
+   	      <p id="text-serie">
+   	   	   Life is like a game, there are many players. 
+               <br>If you don’t play with them, they’ll play with you...
+            </p>
+               
+            <div id="trend">
+   	         <img src="./assets /images/GrowthTrend.png" alt="foto Growth Trend">
+   	         <span>Trending  #1</span>
+   	      </div>
+    		   
+    		   <div>
+    		      <a id="continueWatching" href="https://www.netflix.com/br/login">Continue Watching</a>
+    		      <div>
+    		         <span>S1</span>
+    		         <span>E9</span>
+    		         <span>2021</span>
+    		         <img src="./assets /images/imdb-logo.png" alt="foto imdb logo">
+    		         <span>8.2</span>
+    		      </div>
+    		   </div>
+    		   
          </div>
-   	</div>
+         
+         <img class="squidGameAvatar" id="avatar1" src="./assets /images/Main1.png" alt="foto personagem Round6">
+         <img class="squidGameAvatar" id="avatar2" src="./assets /images/Main2.png" alt="foto personagem Round6">
+         
+      </div>
    </main>
    <footer>
-   	<adress>
-   		<a href="" target="_blank"></a>
-   	</adress>
+   	<address>
+   		<a href="" target="_blank" class="author">Made by Dev Kumar Gupta</a>
+   	</address>
    </footer>
 </body>
 </html>

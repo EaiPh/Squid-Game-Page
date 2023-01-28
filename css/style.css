@@ -38,16 +38,197 @@ h1 {
 main {
 	width: 800px;
 	height: 600px;
-	
-	background-image: url("../assets/images/Background.jpg");
+   background-image: url("../assets /images/Background.jpg");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
 }
 
 .container {
 	width: 100%;
 	height: 100%;
-	background: linear-gradient(243deg, rgba(208, 0, 112, 0.2) 9.5%, rgba(0,0,0) 92.2%),
-	            linear-gradient(120deg, #d00070 -12%, #000 -91%);
+	position: relative;
+	overflow: hidden;
+	background: linear-gradient(242.93deg, rgba(208, 0, 112, 0.2) 9.43%, rgba(0, 0, 0, 0) 92.17%),
+            	linear-gradient(119.29deg, rgba(208, 0, 112, 0.8) -12.07%, rgba(0,0,0, 0.8) 91.7%);
 	box-shadow: -5px -4px 21px rgba(0, 0, 0, 0.25), 
 	             4px 6px 17px rgba(0, 0, 0, 0.25);
-	opacity: 0.4;
+}
+
+nav {
+   width: 100%;
+   padding: 30px 40px;
+   display: flex;
+   justify-content: space-between;
+}
+
+nav ul {
+   color: white;
+   list-style: none;
+}
+
+nav ul li {
+   display: inline-block;
+   margin-left: 2.5rem;
+   font-family: roboto;
+   font-weight: 400;
+   font-size: 13px;
+   line-height: 15px;
+   letter-spacing: 0.06em;
+}
+
+nav ul li a:hover,
+nav ul li:hover 
+{
+   color: red;
+}
+
+a {
+   color: white;
+   text-decoration: none;
+}
+a:visited {
+   color: white;
+}
+
+#prev-img {
+   position: relative;
+   right: 15px;
+}
+
+.container > div {
+   width: 60%;
+}
+
+.container div > div {
+   margin: 1rem;
+}
+
+.squidGameLogo {
+   margin-top: 2rem;
+}
+
+#symbols {
+   width: 29px;
+   height: 70px;
+   display: inline-block;
+}
+
+#symbol1 {
+   position: relative;
+   bottom: 10px;
+}
+
+#text-serie {
+   display: inline-block;
+   width: 360px;
+   height: 32px;
+   position: relative;
+   bottom: 35px;
+   
+   color: white;
+   font-family: roboto;
+   font-size: 13px;
+   font-weight: 400;
+   line-height: 15px;
+   letter-spacing: 0.06em;
+   text-align: left;
+   font-feature-settings: 'kern' off;
+}
+
+#trend {
+   font-size: 12px;
+   position: relative;
+   bottom: 30px;
+   right: 100px;
+   font-family: roboto;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 14px;
+   letter-spacing: 0.06em;
+}
+
+#trend img {
+   transform: translateY(0px);
+   margin-right: 5px;
+}
+
+#continueWatching {
+   width: 214px;
+   height: 42px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   left: 96px;
+   color: white;
+   text-decoration: none;
+   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+   border-radius: 30px;
+   font-family: roboto;
+   font-size: 19px;
+   font-weight: 400;
+   line-height: 22px;
+   letter-spacing: 0.06em;
+   
+   background: linear-Gradient(92deg, rgba(229, 9, 20, 1) 21%, rgba(229, 9, 20, 0.63) 102%);
+}
+
+#continueWatching + div {
+   position: relative;
+   right: 20px;
+}
+
+#continueWatching + div > span, img {
+   font-family: roboto;
+   font-weight: 400;
+   font-size: 13px;
+   line-height: 15px;
+   letter-spacing: 0.06em;
+   margin-right: 10px;
+   transform: translateY(5px);
+}
+
+span {
+   color: white;
+}
+
+.squidGameAvatar {
+   position: absolute;
+   bottom: 5px;
+   left: 400px;
+}
+
+#avatar2 {
+   left: 410px;
+}
+
+footer address {
+   width: 366px;
+   height: 58px;
+   margin: 15px;
+   float: right;
+   border-radius: 11px;
+   background-color: #f8f8f8;
+   filter: drop-shadow(0px 4px 4px rgba(0,0,0, 0.25));
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.author {
+   width: 322px;
+   height: 39;
+   color: rgba(83, 83, 83, 1);
+   display: block;
+   text-decoration: none;
+   font-family: roboto;
+   font-weight: 400;
+   font-size: 25px;
+   line-height: 29px;
+   letter-spacing: 0.04em;
+}
+
+.author:visited {
+   color: rgba(83, 83, 83, 1);
 }
